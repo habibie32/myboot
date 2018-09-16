@@ -1,2 +1,0 @@
-# myboot
-boot
