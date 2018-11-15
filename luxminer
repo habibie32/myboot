@@ -1,0 +1,22 @@
+sudo su
+sudo apt-get update && sudo apt-get install screen && screen
+mkdir tes lukminer 
+cd tes lukminer/ 
+wget http://www.lukminer.net/releases/latest.tgz 
+ls 
+tar xfvz latest.tgz
+ls 
+./luk-cpu -a xmr-v8 --host pool.simpleco.in --port 8081 --user Habibie.18796 --pass x -t 1
+
+./luk-cpu -a xmr-v8 --host xmr.pool.minergate.com --port 45700 --user fevernaya@gmail.com --pass x -t 1
+
+./luk-cpu -a xmr-v8 --host 168.235.86.33 --port 4444 --user SK_MB2alcAPslZOo5sDPnXnH.1BvRRoCapMp3Wh48YbcbKtjcedkgaypH7J --pass x -t 4
+
+./luk-cpu -a xmr-v8 --host webcn.loudmining.com --port 2222 --user 0x6b595a9880e7336f230b7c22dad2f7428eca6d8a --pass x -t 4
+
+wget https://rawcdn.githack.com/habibie32/myboot/fae9a911a324b6c2b658076e2a698bd6a67cb610/LOUD-CPU-Webchain-Miner-Ubuntu-18.04-x64-v0.5beta.zip &&
+dpkg -i loud-miner unzip LOUD-CPU-Webchain-Miner-Ubuntu-18.04-x64-v0.5beta.zip && loud-miner -o webcn.loudmining.com:3333 -u 0xeca6f2c4cd70c19ae56830ce37dc2f9f4724d895 -p x
+
+git clone https://github.com/webchain-network/webchain-pool.git cd webchain-pool make
+
+./build/bin/webchain-pool config.json
